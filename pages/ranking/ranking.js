@@ -1398,5 +1398,11 @@ Page({
         }
     ],
     "title": "豆瓣电影Top250"
+  },
+  // 跳转到热门上映详情页
+  goHotDetail: function(event) {
+    wx.navigateTo({
+      url: '../hot/hotDetail'
+    })
   }
 })

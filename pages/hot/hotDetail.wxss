@@ -1,1 +1,72 @@
-@import "lean.wxss";
+@import "../../utils/style/lean.wxss";
+
+.detail {
+	line-height:1.5;
+}
+.detail .title{
+	display:block;
+	margin:0 15px;
+	height:2rem;
+	line-height:2rem;
+	font-size:1rem;
+	border-bottom:1px solid #ddd;
+}
+
+.detail .subject{
+	margin:15px 15px 15px 15px;
+}
+
+.detail .subject .name{
+	line-height:2;	
+}
+
+.detail .subject .casts{
+	font-size:0.7rem;
+	color:#666;
+}
+
+.detail .photos{
+	margin-bottom:10px;
+}
+
+.detail .photos view{
+	margin:15px 15px 0 15px;
+	height:80px;
+	overflow:hidden;
+}
+
+.detail .photos view image{
+	display:inline-block;
+	width:80px;
+	height:80px;
+	margin-right:6px;
+}
+
+.detail .comments .list{
+	margin: 0 15px;
+	font-size:0.8rem;
+	color:#444;
+}
+
+.detail .comments .list{
+	padding:15px 0;
+	border-bottom:1px dotted #ddd;
+}
+
+.detail .comments .list .name{
+	color:#dd514c;
+}
+.detail .comments .list .date{
+	font-size:0.7rem;
+	margin-left:10px;
+	color:#666;
+}
+.detail .comments .list .comments_short{
+	font-size:0.7rem;
+}
+
+.detail .comments .list image.rate{
+	width:84px;
+	height:16px;
+	margin:3px 0 3px 0;
+}

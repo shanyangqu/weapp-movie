@@ -1,5 +1,5 @@
 <view class="hot">
-	<view class="list clearfix" wx:for="{{subjects}}" data-id="{{item.id}}">
+	<view class="list clearfix" wx:for="{{subjects}}" data-id="{{item.id}}" bindtap="goHotDetail">
 		<view class="col-3 box-sizing"><image src="{{item.images.medium}}" /></view>
 		<view class="col-7 box-sizing">
 			<view class="title">{{index+1}}：{{item.title}}</view>

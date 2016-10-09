@@ -1,1 +1,55 @@
-hotDetail page
+<view class="detail">
+	<view class="subject">
+		<view class="name">湄公河行动</view>
+		<view class="casts">类型：动作、战争</view>
+		<view class="casts">主演：张涵予、彭于晏</view>
+	</view>
+	<title class="title">剧照</title>
+	<view class="photos">
+		<view>
+			<image src="../../images/pic.jpg"></image>
+			<image src="../../images/pic.jpg"></image>
+			<image src="../../images/pic.jpg"></image>
+			<image src="../../images/pic.jpg"></image>
+		</view>
+	</view>
+	<title class="title">短评</title>
+	<view class="comments">
+		<view class="list">
+			<text class="name">梦见乌鸦的火堂</text>
+			<text class="date">2016-09-10</text>
+			<view><image class="rate" src="http://i1.dpfile.com/s/i/app/api/16_5star.png"></image></view>
+			<view class="comments_short">本来三星，但为了怼隔壁郭敬明女士，更为了中国电影，任性四星。体质下和敏感题材导致片头片尾有规避和迎合。但从选角到动作场面的制作，有大片格局，国内类型片里绝对翘楚。生猛，跳跃，肾上腺素爆表。童子军恐，哮天犬伤，荷枪实弹，诚意之作</view>
+		</view>
+		<view class="list">
+			<text class="name">梦见乌鸦的火堂</text>
+			<text class="date">2016-09-10</text>
+			<view><image class="rate" src="http://i1.dpfile.com/s/i/app/api/16_5star.png"></image></view>
+			<view class="comments_short">本来三星，但为了怼隔壁郭敬明女士，更为了中国电影，任性四星。体质下和敏感题材导致片头片尾有规避和迎合。但从选角到动作场面的制作，有大片格局，国内类型片里绝对翘楚。生猛，跳跃，肾上腺素爆表。童子军恐，哮天犬伤，荷枪实弹，诚意之作</view>
+		</view>
+		<view class="list">
+			<text class="name">梦见乌鸦的火堂</text>
+			<text class="date">2016-09-10</text>
+			<view><image class="rate" src="http://i1.dpfile.com/s/i/app/api/16_5star.png"></image></view>
+			<view class="comments_short">本来三星，但为了怼隔壁郭敬明女士，更为了中国电影，任性四星。体质下和敏感题材导致片头片尾有规避和迎合。但从选角到动作场面的制作，有大片格局，国内类型片里绝对翘楚。生猛，跳跃，肾上腺素爆表。童子军恐，哮天犬伤，荷枪实弹，诚意之作</view>
+		</view>
+		<view class="list">
+			<text class="name">梦见乌鸦的火堂</text>
+			<text class="date">2016-09-10</text>
+			<view><image class="rate" src="http://i1.dpfile.com/s/i/app/api/16_5star.png"></image></view>
+			<view class="comments_short">本来三星，但为了怼隔壁郭敬明女士，更为了中国电影，任性四星。体质下和敏感题材导致片头片尾有规避和迎合。但从选角到动作场面的制作，有大片格局，国内类型片里绝对翘楚。生猛，跳跃，肾上腺素爆表。童子军恐，哮天犬伤，荷枪实弹，诚意之作</view>
+		</view>
+		<view class="list">
+			<text class="name">梦见乌鸦的火堂</text>
+			<text class="date">2016-09-10</text>
+			<view><image class="rate" src="http://i1.dpfile.com/s/i/app/api/16_5star.png"></image></view>
+			<view class="comments_short">本来三星，但为了怼隔壁郭敬明女士，更为了中国电影，任性四星。体质下和敏感题材导致片头片尾有规避和迎合。但从选角到动作场面的制作，有大片格局，国内类型片里绝对翘楚。生猛，跳跃，肾上腺素爆表。童子军恐，哮天犬伤，荷枪实弹，诚意之作</view>
+		</view>
+		<view class="list">
+			<text class="name">梦见乌鸦的火堂</text>
+			<text class="date">2016-09-10</text>
+			<view><image class="rate" src="http://i1.dpfile.com/s/i/app/api/16_5star.png"></image></view>
+			<view class="comments_short">本来三星，但为了怼隔壁郭敬明女士，更为了中国电影，任性四星。体质下和敏感题材导致片头片尾有规避和迎合。但从选角到动作场面的制作，有大片格局，国内类型片里绝对翘楚。生猛，跳跃，肾上腺素爆表。童子军恐，哮天犬伤，荷枪实弹，诚意之作</view>
+		</view>
+	</view>
+</view>
