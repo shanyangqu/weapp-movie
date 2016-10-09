@@ -1,0 +1,35 @@
+@import "../../utils/style/lean.wxss";
+
+.search form input{
+	box-sizing:border-box;
+	display:block;
+	float:left;
+	margin-left:3%;
+	margin-top:20px;
+	width:60%;
+	padding:0 10px;
+	font-size:1rem;
+	height:2rem;
+	line-height:2rem;
+	border:1px solid #ddd;
+}
+.search form button{
+	box-sizing:border-box;
+	display:block;
+	float:right;
+	width:30%;
+	margin-right:3%;
+	margin-top:20px;
+	height:2rem;
+	line-height:2rem;
+	font-size:0.8rem;
+	border-radius:0;
+}
+.search .tags{
+	margin:15px 4%;
+	font-size:0.8rem;
+}
+.search .tags view{
+	color:#dd514c;
+	margin-bottom:10px;
+}

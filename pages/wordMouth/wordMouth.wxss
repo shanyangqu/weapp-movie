@@ -1,0 +1,51 @@
+@import "../../utils/style/lean.wxss";
+
+.container{
+	padding:0 10px;
+}
+
+.hot image{
+	width:100px;
+	height:140px;
+}
+
+.hot .list{
+	margin:0 15px;
+	padding:10px 0 7px 0;
+	line-height:1.5;
+	border-bottom:1px solid #ddd;
+}
+.hot .list:last-child{
+	border:none;
+}
+
+.hot .title{
+	font-size:0.8rem;
+	line-height:2;
+	color:#dd514c;
+}
+
+.hot .average{
+	font-size:0.7rem;
+	color:#666;
+}
+
+.hot .genres{
+	font-size:0.7rem;
+	color:#666;
+}
+
+.hot .casts{
+	font-size:0.7rem;
+	color:#666;
+}
+
+.hot .list .information{
+	margin-bottom:5px;
+}
+
+.worldMouth image{
+	width:84px;
+	height:16px;
+	vertical-align:middle;
+}

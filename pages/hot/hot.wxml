@@ -1,0 +1,12 @@
+<view class="hot">
+	<view class="list clearfix" wx:for="{{subjects}}" data-id="{{item.id}}" bindtap="goHotDetail">
+		<view class="col-3 box-sizing"><image src="{{item.images.medium}}" /></view>
+		<view class="col-7 box-sizing">
+			<view class="title">{{item.title}}</view>
+			<view class="average">评分：{{item.rating.average}}</view>
+			<view class="casts">年份：{{item.year}}</view>
+			<view class="genres">类型：{{item.genres[0]}}、{{item.genres[1]}}</view>
+			<view class="casts">主演：{{item.casts[0].name}}、{{item.casts[1].name}}</view>
+		</view>
+	</view>
+</view>

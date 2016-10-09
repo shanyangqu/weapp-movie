@@ -1,0 +1,42 @@
+{
+"pages":[
+  "pages/hot/hot",
+  "pages/hot/hotDetail",
+  "pages/wordMouth/wordMouth",
+  "pages/ranking/ranking",
+  "pages/search/search"
+],
+"window":{
+  "backgroundTextStyle":"light",
+  "navigationBarBackgroundColor": "#fff",
+  "navigationBarTitleText": "WeChat",
+  "navigationBarTextStyle":"black"
+},
+"tabBar":{
+  "color":"#444",
+  "selectedColor":"#dd514c",
+  "borderStyle":"white",
+  "background-color":"#fff",
+  "list":[{
+    "pagePath":"pages/hot/hot",
+    "iconPath":"images/topBar/navBar1.png",
+    "selectedIconPath":"images/topBar/navBar11.png",
+    "text":"热映"
+  },{
+    "pagePath":"pages/wordMouth/wordMouth",
+    "iconPath":"images/topBar/navBar3.png",
+    "selectedIconPath":"images/topBar/navBar33.png",
+    "text":"口碑"
+  },{
+    "pagePath":"pages/ranking/ranking",
+    "iconPath":"images/topBar/navBar2.png",
+    "selectedIconPath":"images/topBar/navBar22.png",
+    "text":"排行榜"
+  },{
+    "pagePath":"pages/search/search",
+    "iconPath":"images/topBar/navBar4.png",
+    "selectedIconPath":"images/topBar/navBar44.png",
+    "text":"搜索"
+  }]
+  }
+}

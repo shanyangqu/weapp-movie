@@ -1,0 +1,8 @@
+<view class="hot worldMouth">
+	<view class="list clearfix" wx:for="{{reviews}}" data-id="{{item.review_id}}" bindtap="goHotDetail">
+		<view class="information title">{{item.user_nickname}}</view>
+		<view class="information average">日期：{{item.created_time}}</view>
+		<view class="information casts">总分：<image src="{{item.rating_img_url}}" /></view>
+		<view class="information casts">简评：{{item.text_excerpt}}</view>
+	</view>
+</view>

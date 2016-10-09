@@ -1,0 +1,9 @@
+<view class="search">
+	<form class="clearfix">
+		<input type="text"></input>
+		<button>搜索</button>
+	</form>
+	<view class="tags" wx:for="search">
+		<view>{{search[index].name}}</view>
+	</view>
+</view>
